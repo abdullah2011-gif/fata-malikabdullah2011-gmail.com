@@ -1,0 +1,46 @@
+.main {
+  .landing-text {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: right;
+    color: #240d57;
+  }
+  span {
+    background: -webkit-linear-gradient(#8456ec, #e87bf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .btn {
+    background: -webkit-linear-gradient(#8456ec, #e87bf8);
+    text-transform: capitalize;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+  }
+  .sub-text {
+    font-weight: 300;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 27.6px;
+    text-align: right;
+  }
+  @media only screen and (max-width: 600px) {
+    .landing-text {
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+    .sub-text {
+      font-size: 18px;
+      text-align: center;
+    }
+    .btn {
+      margin-top: 2px;
+    }
+    /*Tablets [601px -> 1200px]*/
+  }
+}
